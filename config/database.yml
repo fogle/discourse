@@ -33,6 +33,7 @@ development:
 test:
   prepared_statements: false
   adapter: postgresql
+  username: postgres
   database: <%= test_db %>
   min_messages: warning
   pool: 5
