@@ -1,6 +1,6 @@
 before_test:
   - rails db:create
-  - rails db:test:prepare
+  - rails db:migrate
   - rails assets:precompile
 dependencies:
   redis: latest
