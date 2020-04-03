@@ -4,6 +4,5 @@ before_test:
 dependencies:
   redis: latest
   postgresql: latest
-  imagemagick: latest
-  libpng: latest
+  imagemagick7: latest
   ruby: 2.6.5
