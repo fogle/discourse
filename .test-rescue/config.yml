@@ -5,4 +5,5 @@ dependencies:
   redis: latest
   postgresql: latest
   imagemagick: latest
+  libpng: latest
   ruby: 2.6.5
